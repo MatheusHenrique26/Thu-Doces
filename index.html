@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link href="assets/css/reset.css" rel="stylesheet">
+        <link href="assets/css/normalize.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+        <link href="assets/css/cabecalho.css" rel="stylesheet">
+        <link href="assets/css/carrosel/banner.css" rel="stylesheet">
+		<link href="assets/css/carrosel/banner-titulo.css" rel="stylesheet">
+		<link href="assets/css/cards/card.css" rel="stylesheet">
+		<link href="assets/css/cards/card-titulo.css" rel="stylesheet">
+		<link href="assets/css/cards/card-descricao.css" rel="stylesheet">
+		<link href="assets/css/cards/card-valor.css" rel="stylesheet">
+		<link href="assets/css/cards/card-conteudo.css" rel="stylesheet">
+		<link href="assets/css/cards/card-imagem.css" rel="stylesheet">
+		<link href="assets/css/cards.css" rel="stylesheet">
+		<link href="assets/css/frases/frases.css" rel="stylesheet">
+		<link href="assets/css/frases/frases-titutlo.css" rel="stylesheet">
+		<link href="assets/css/frases/frases-descricao.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="assets/css/contatos/contatos.css" rel="stylesheet">
+		<link href="assets/css/contatos/whatsapp.css" rel="stylesheet">
+		<link href="assets/css/contatos/fa-whatsapp.css" rel="stylesheet">
+		<link href="assets/css/contatos/instagram.css" rel="stylesheet">
+		<link href="assets/css/contatos/fa-instagram.css" rel="stylesheet">
+		<link href="assets/css/footer/footer.css" rel="stylesheet">
+		<link href="assets/css/footer/footer-git.css" rel="stylesheet">
+		<link href="assets/css/footer/footer-link.css" rel="stylesheet">
+		<link href="assets/css/local/local.css" rel="stylesheet">
+		<link href="assets/css/local/local-descricao.css" rel="stylesheet">
+		<link href="assets/css/local/local-maps.css" rel="stylesheet">
+		<link href="assets/css/menu/menu-lista.css" rel="stylesheet">
+		<link href="assets/css/menu/menu-link.css" rel="stylesheet">
+		<link href="assets/css/menu/menu-nav.css" rel="stylesheet">
+		<link href="assets/css/menu/menu.css" rel="stylesheet">
+		<link href="assets/css/menu/menu-bar.css" rel="stylesheet">
+		<link href="assets/css/menu/menu-bg.css" rel="stylesheet">
+		
+
+        <title>Thu Doces</title>
+	</head>
+	<body onLoad ="slide1()">
+		<header class="cabecalho">
+			 <nav id="menu-bar">
+				<div id="menu" onclick="onClickMenu()">
+					<div id="bar1" class="bar"></div>
+					<div id="bar2" class="bar"></div>
+					<div id="bar3" class="bar"></div>
+	
+				</div>
+				<ul class="nav" id="nav">
+					<li class="menu__lista"><a class="menu__link" href="#">Home</a></li>
+					<li class="menu__lista"><a class="menu__link" href="#">Galeria</a></li>
+					<li class="menu__lista"><a class="menu__link" href="https://web.whatsapp.com/send?phone=55031999681947" target="_blank">Contato</a></li>
+					<li class="menu__lista"><a class="menu__link" href="https://github.com/MatheusHenrique26" target="_blank">Criação</a></li>
+	
+				</ul>
+			 </nav>
+			<div class="menu-bg" id="menu-bg"></div>
+		</header>
+		<section class="carrosel">
+			<img id ="banner">
+			<p class="banner__titulo">Thu Doces</p>		
+		</section>
+		<div class="frases">
+			<h1 class="frase__titulo">Alegrando os momentos doces da sua vida</h1>
+			<p class="frase__descricao">Com açucar e com afeto fiz seu doce predileto</p>
+		</div>
+		<div class="contatos">	
+			<a class="whatsapp" href="https://web.whatsapp.com/send?phone=55031999681947" target="_blank">
+			<i class="fa fa-whatsapp"></i>
+			</a>
+			<a class="instagram"href="https://www.instagram.com/thudoces/" target="_blank">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a>
+		</div>
+		<section class="cards">
+			<div class="card">
+				<img alt="Nome" class="receita__imagem" src="./assets/img/card1.jpg" />
+				<div class="card__conteudo">
+					<h4 class="card__titulo">Bolo</h4>
+					<p class="card__descricao">Bolo de chocolate e morango</p>
+					<p class="card__valor">R$ 45,00</p>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="Nome" class="receita__imagem" src="./assets/img/card2.jpg" />
+				<div class="card__conteudo">
+					<h4 class="card__titulo">Copo Felicidade</h4>
+					<p class="card__descricao">Copo Felicidade, pequeno</p>
+					<p class="card__valor">R$ 6,00</p>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="Nome" class="receita__imagem" src="./assets/img/card3.jpg" />
+				<div class="card__conteudo">
+					<h4 class="card__titulo">Torta</h4>
+					<p class="card__descricao">Torta de chocolate e morango</p>
+					<p class="card__valor">R$ 15,00</p>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="Nome" class="receita__imagem" src="./assets/img/card4.jpg" />
+				<div class="card__conteudo">
+					<h4 class="card__titulo">Fatia de Torta</h4>
+					<p class="card__descricao">Fatia de torta de biscoito</p>
+					<p class="card__valor">R$ 3,00</p>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="Nome" class="receita__imagem" src="./assets/img/card5.jpg" />
+				<div class="card__conteudo">
+					<h4 class="card__titulo">Copo Felicidade</h4>
+					<p class="card__descricao">Copo Felicidade, Medio</p>
+					<p class="card__valor">R$ 10,00</p>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="Nome" class="receita__imagem" src="./assets/img/card6.jpg" />
+				<div class="card__conteudo">
+					<h4 class="card__titulo">Torta</h4>
+					<p class="card__descricao">Torta de creme e morango</p>
+					<p class="card__valor">R$ 15,00</p>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="Nome" class="receita__imagem" src="./assets/img/card7.jpg" />
+				<div class="card__conteudo">
+					<h4 class="card__titulo">Copo Felicidade</h4>
+					<p class="card__descricao">Copo Felicidade, Grande</p>
+					<p class="card__valor">R$ 15,00</p>
+				</div>
+			</div>
+			<div class="card">
+				<img alt="Nome" class="receita__imagem" src="./assets/img/card8.jpg" />
+				<div class="card__conteudo">
+					<h4 class="card__titulo">Bolo</h4>
+					<p class="card__descricao">Bolo de festas com decoração</p>
+					<p class="card__valor">R$ 65,00</p>
+				</div>
+			</div>
+		</section>
+		<div class="local">
+			<h1 class="local__descricao">Nossa localização</h1>
+			<iframe class="local__maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.540677088668!2d-43.95560848563449!3d-19.901608142565177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690b206c9b6e7%3A0x34435e6480881ead!2sR.%20Mariana%2C%201451%20-%20Bonfim%2C%20Belo%20Horizonte%20-%20MG%2C%2031210-420!5e0!3m2!1spt-BR!2sbr!4v1625508092370!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+		<footer class="footer">
+			
+			<p><a class="git" href="https://github.com/MatheusZamo" target="_blank"> 
+				Github
+				<i class="fa fa-github"></i>	
+			</a></p>
+			<p><a class="link" href="https://www.linkedin.com/in/matheusolsantos/" target="_blank">
+				Linkedin	
+				<i class="fa fa-linkedin" aria-hidden="true"></i>						
+			</a></p>
+		</footer>
+		<script src="assets/js/menu-hamburguer.js"></script>
+		<script src="assets/js/slide.js"></script>
+	</body>
+</html>

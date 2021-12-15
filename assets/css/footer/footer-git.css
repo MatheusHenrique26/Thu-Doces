@@ -1,0 +1,11 @@
+.git{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+@media screen and (min-width: 768px){
+    .git{
+        font-size:1.5rem;
+    }
+}
