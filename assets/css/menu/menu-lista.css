@@ -1,0 +1,14 @@
+.menu__lista
+{
+	color: #fff;
+	text-decoration: none;
+}
+.menu__lista:hover
+{
+	font-weight: bold;
+}
+.menu__lista
+{
+	list-style: none;
+	padding: 16px 0;
+}
