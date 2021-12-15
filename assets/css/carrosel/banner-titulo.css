@@ -15,7 +15,7 @@
     }
 
     }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     .banner__titulo{
         top:32%;
         font-size: 3rem;
