@@ -9,12 +9,7 @@
     color: #8d0606;
 }
 
-@media screen and (min-width: 0){
-	.banner__titulo{
-        top:23%;
-    }
-
-    }
+    
 @media screen and (max-width: 768px){
     .banner__titulo{
         top:32%;
@@ -22,8 +17,4 @@
         margin-top: 4rem;
     }
     }
- @media screen and (min-width: 992px){
-    .banner__titulo{
-        top:35%;
-    }
-    }
+
