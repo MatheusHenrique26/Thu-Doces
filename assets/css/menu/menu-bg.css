@@ -1,0 +1,20 @@
+.menu-bg, #menu-bar{
+	top:0;
+	left: 0;
+	position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+	background: radial-gradient(circle,#8d0606,#8d0606);
+	border-radius: 50%;
+	transition: 0.3s ease;
+}
+.change-bg
+{
+	width: 550px;
+	height: 540px;
+	transform: translate(-60%,-30%);
+}
